@@ -9,7 +9,7 @@ bool change(pii p,pii q,pii r)
     pii x1 = mp(q.f-p.f,q.s-p.s);
     pii x2 = mp(r.f-q.f,r.s-q.s);
     int x = x1.f*x2.s - x1.s*x2.f;
-    return x>0;
+    return x<0;
 }
 void convexHull(vector<pii> points)
 {
