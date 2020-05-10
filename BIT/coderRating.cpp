@@ -1,3 +1,13 @@
+/*
+You are given N coders (1 ≤ N ≤ 300000), conveniently numbered from 1 to N. 
+Each of these coders participates in both High School and Open matches. 
+For each coder, you are also given an Open rating Ai and a High School rating Hi. 
+Coder i is said to be better than coder j if and only if both of coder i's ratings
+ are greater than or equal to coder j's corresponding ratings, 
+ with at least one being greater. 
+ For each coder i, determine how many coders coder i is better than. 
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
